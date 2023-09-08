@@ -1,6 +1,6 @@
 group:
   repos: |
-    qbox-project/test-repo
+    qbox-project/qbx-radialmenu
   files:
   - source: repo-template/.github/
     dest: .github/
