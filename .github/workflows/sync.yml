@@ -9,6 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Get App Token
+        id: generate_token
         uses: tibdex/github-app-token@v2.1.0
         with:
           app_id: ${{ secrets.APP_ID }}
@@ -18,5 +19,5 @@ jobs:
       - name: Run GitHub File Sync
         uses: BetaHuhn/repo-file-sync-action@v1
         with:
-          GH_PAT: ${{ steps.create_token.outputs.token }}
+          GH_INSTALLATION_TOKEN: ${{ steps.generate_token.outputs.token }}
           SKIP_PR: true
