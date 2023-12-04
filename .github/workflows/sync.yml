@@ -8,10 +8,17 @@ jobs:
   sync:
     runs-on: ubuntu-latest
     steps:
+      - name: Get App Token
+        uses: actions/create-github-app-token@v1.6.1
+        id: generate_token
+        with:
+          app-id: ${{ secrets.APP_ID }}
+          private-key: ${{ secrets.PRIVATE_KEY }}
+          owner: ${{ github.repository_owner }}
       - name: Checkout Repository
         uses: actions/checkout@master
       - name: Run GitHub File Sync
         uses: BetaHuhn/repo-file-sync-action@v1
         with:
-          GH_PAT: ${{ secrets.GH_PAT }}
+          GH_INSTALLATION_TOKEN: ${{ steps.generate_token.outputs.token }}
           SKIP_PR: true
