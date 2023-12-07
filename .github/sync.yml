@@ -1,7 +1,6 @@
 group:
   repos: |
     Qbox-project/connectqueue
-    Qbox-project/interact-sound
     Qbox-project/mhacking
     Qbox-project/npwd_qbx_garages
     Qbox-project/npwd_qbx_mail
