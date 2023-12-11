@@ -47,10 +47,10 @@ Below are conventions that you must follow when contributing code.
 
 - The first line of a commit message must be 72 characters at most.
 - Commit messages and pull request titles must follow [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/).
-  - Use `fix:` when you change code and patch a bug.
-  - Use `feat:` when you change code and introduce a new feature.
-  - Use `refactor:` when you change code but neither patch a bug nor introduce a new feature.
-  - Use `chore:` when none of the above apply.
+  - Use `fix:` when patching a bug.
+  - Use `feat:` when introducing a new feature.
+  - Use `refactor:` when altering code without changing functionality.
+  - Use `chore:` when your changes don't alter production code.
   - Append a `!` after the type/scope of the feature when you change code and introduce a breaking API change. Optionally add a footer to the bottom of your commit message separated by 2 newlines, starting with `BREAKING CHANGE:`, and explaining the breaking change.
 
 ### Lua Conventions
