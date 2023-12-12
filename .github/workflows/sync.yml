@@ -22,6 +22,4 @@ jobs:
         with:
           GH_INSTALLATION_TOKEN: ${{ steps.generate_token.outputs.token }}
           COMMIT_PREFIX: 'chore:'
-          ORIGINAL_MESSAGE: true
-          COMMIT_AS_PR_TITLE: true
           SKIP_PR: true
