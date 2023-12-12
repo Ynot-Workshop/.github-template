@@ -25,6 +25,13 @@ When opening a new issue, make sure to pick the right type of form and fill it o
 
 Open a new pull request to contribute code.
 
+You can use your own editor of choice, but we recommend using [VSCode](https://code.visualstudio.com/) with these extensions:
+
+- [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
+- [Lua Language Server](https://marketplace.visualstudio.com/items?itemName=sumneko.lua)
+- [EditorConfig](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
+- [CfxLua IntelliSense](https://marketplace.visualstudio.com/items?itemName=overextended.cfxlua-vscode)
+
 If you are new to contributing code, you can check out and try to fix issues marked with [`good first issue`](https://github.com/issues?q=is%3Aissue+is%3Aopen+org%3AQbox-Project+label%3A%22good+first+issue%22).
 
 If you want to contribute code but don't know what to do, please check out issues marked with [`help wanted`](https://github.com/issues?q=is%3Aissue+is%3Aopen+org%3AQbox-Project+label%3A%22help+wanted%22) as those are issues that we actually *need* help with.
