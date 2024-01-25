@@ -49,8 +49,8 @@ body:
     id: updated
     attributes:
       label: Current Version
-      description: When version of the resource are you currently using?
-      placeholder: e.g. v1.3.0, 1.4.0
+      description: What version of the resource are you currently using?
+      placeholder: e.g. v1.3.0, v1.4.0
     validations:
       required: true
   - type: input
