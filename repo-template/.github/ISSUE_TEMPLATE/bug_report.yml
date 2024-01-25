@@ -61,10 +61,3 @@ body:
       placeholder: e.g. zdiscord, qb-target
     validations:
       required: true
-  - type: input
-    id: renamed
-    attributes:
-      label: Resource Rename
-      description: Have you renamed this resource from `qbx_` to something custom?
-    validations:
-      required: true
