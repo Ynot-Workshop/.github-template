@@ -48,9 +48,9 @@ body:
   - type: input
     id: updated
     attributes:
-      label: Last Updated
-      description: When have you last updated?
-      placeholder: e.g. last week, today
+      label: Current Version
+      description: When version of the resource are you currently using?
+      placeholder: e.g. v1.3.0, 1.4.0
     validations:
       required: true
   - type: input
@@ -65,6 +65,6 @@ body:
     id: renamed
     attributes:
       label: Resource Rename
-      description: Have you renamed this resource from `qb-` to something custom?
+      description: Have you renamed this resource from `qbx_` to something custom?
     validations:
       required: true
