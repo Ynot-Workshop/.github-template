@@ -62,5 +62,5 @@ group:
     Qbox-project/safecracker
     Qbox-project/txAdminRecipe
   files:
-  - source: repo-template/.github/
-    dest: .github/
+  - source: repo-template/
+    dest: ./
