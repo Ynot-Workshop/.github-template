@@ -61,6 +61,7 @@ group:
     Qbox-project/qbx_weed
     Qbox-project/safecracker
     Qbox-project/txAdminRecipe
+    Qbox-project/qbx_nitro
   files:
   - source: repo-template/
     dest: ./
