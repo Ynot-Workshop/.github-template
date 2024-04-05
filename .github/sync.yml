@@ -62,6 +62,7 @@ group:
     Qbox-project/safecracker
     Qbox-project/txAdminRecipe
     Qbox-project/qbx_nitro
+    Qbox-project/qbx_density
   files:
   - source: repo-template/
     dest: ./
