@@ -41,6 +41,7 @@ jobs:
                 token: ${{ steps.generate_token.outputs.token }}
                 tag: ${{ github.ref_name }}
                 includeInvalidCommits: true
+                useGitmojis: false
                 writeToFile: false
 
             - name: Create Release
