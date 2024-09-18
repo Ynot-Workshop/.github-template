@@ -43,7 +43,6 @@ jobs:
                 includeInvalidCommits: true
                 writeToFile: false
 
-
             - name: Create Release
               uses: ncipollo/release-action@v1.14.0
               with:
