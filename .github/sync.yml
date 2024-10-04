@@ -1,9 +1,9 @@
 group:
   repos: |
-    Ybox-project/y_customs
-    Ybox-project/y_hud
-    Ybox-project/y_radio
-    Ybox-project/y_nitro
+    Ybox-Project/y_customs
+    Ybox-Project/y_hud
+    Ybox-Project/y_radio
+    Ybox-Project/y_nitro
   files:
   - source: repo-template/
     dest: ./
