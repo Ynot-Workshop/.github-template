@@ -1,6 +1,8 @@
 group:
   repos: |
+    Ybox-Project/y_core
     Ybox-Project/y_customs
+    Ybox-Project/y_mechanic
     Ybox-Project/y_hud
     Ybox-Project/y_radio
     Ybox-Project/y_nitro
