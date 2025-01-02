@@ -1,4 +1,4 @@
-# Contributing to Ybox
+# Contributing to Ynot's Workshop
 
 Thank you for taking the time to contribute!
 
